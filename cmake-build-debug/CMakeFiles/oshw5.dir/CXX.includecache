@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/SafeQ.h
+sys/param.h
+-
+pthread.h
+-
+
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.cpp
+Task.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.h
+
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.h
+
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/main.cpp
+iostream
+-
+SafeQ.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/SafeQ.h
+
