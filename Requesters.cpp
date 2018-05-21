@@ -42,15 +42,15 @@ void * getDomainName(void * tData){
     int waitTime;
     while (getline(infile, line)) {
         string *url= new string(line);
-
-        while(!fn->requestQ->enQ(url)){
-            //if the url didnt get into the queue wait rand time and try again;
-            waitTime = rand()%100;
-            auto start = chrono::high_resolution_clock::now();
-            this_thread::sleep_for(chrono::microseconds(waitTime));
-            auto finish = chrono::high_resolution_clock::now();
-            cout << chrono::duration_cast<chrono::microseconds>(finish-start).count() << "us\n";
-        }
+        fn->requestQ->enQ(url);
+//        while(!fn->requestQ->enQ(url)){
+//            //if the url didnt get into the queue wait rand time and try again;
+//            waitTime = rand()%100;
+//            auto start = chrono::high_resolution_clock::now();
+//            this_thread::sleep_for(chrono::microseconds(waitTime));
+//            auto finish = chrono::high_resolution_clock::now();
+//           // cout << chrono::duration_cast<chrono::microseconds>(finish-start).count() << "us\n";
+//        }
     }
         //fn->requestQ->print();
 

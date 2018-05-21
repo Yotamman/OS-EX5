@@ -11,6 +11,12 @@ CMakeFiles/oshw5.dir/Requesters.cpp.o: ../SafeQ.h
 CMakeFiles/oshw5.dir/Requesters.cpp.o: ../Task.h
 CMakeFiles/oshw5.dir/Requesters.cpp.o: ../ThreadPool.h
 
+CMakeFiles/oshw5.dir/Resolvers.cpp.o: ../Resolvers.cpp
+CMakeFiles/oshw5.dir/Resolvers.cpp.o: ../Resolvers.h
+CMakeFiles/oshw5.dir/Resolvers.cpp.o: ../SafeQ.h
+CMakeFiles/oshw5.dir/Resolvers.cpp.o: ../Task.h
+CMakeFiles/oshw5.dir/Resolvers.cpp.o: ../ThreadPool.h
+
 CMakeFiles/oshw5.dir/Task.cpp.o: ../Task.cpp
 CMakeFiles/oshw5.dir/Task.cpp.o: ../Task.h
 
@@ -19,8 +25,10 @@ CMakeFiles/oshw5.dir/ThreadPool.cpp.o: ../ThreadPool.cpp
 CMakeFiles/oshw5.dir/ThreadPool.cpp.o: ../ThreadPool.h
 
 CMakeFiles/oshw5.dir/main.cpp.o: ../Requesters.h
+CMakeFiles/oshw5.dir/main.cpp.o: ../Resolvers.h
 CMakeFiles/oshw5.dir/main.cpp.o: ../SafeQ.h
 CMakeFiles/oshw5.dir/main.cpp.o: ../Task.h
 CMakeFiles/oshw5.dir/main.cpp.o: ../ThreadPool.h
 CMakeFiles/oshw5.dir/main.cpp.o: ../main.cpp
+CMakeFiles/oshw5.dir/main.cpp.o: ../util.h
 

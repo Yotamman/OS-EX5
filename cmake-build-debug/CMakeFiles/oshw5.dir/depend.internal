@@ -11,6 +11,12 @@ CMakeFiles/oshw5.dir/Requesters.cpp.o
  /cygdrive/c/Users/Ben/CLionProjects/oshw5/SafeQ.h
  /cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.h
  /cygdrive/c/Users/Ben/CLionProjects/oshw5/ThreadPool.h
+CMakeFiles/oshw5.dir/Resolvers.cpp.o
+ /cygdrive/c/Users/Ben/CLionProjects/oshw5/Resolvers.cpp
+ /cygdrive/c/Users/Ben/CLionProjects/oshw5/Resolvers.h
+ /cygdrive/c/Users/Ben/CLionProjects/oshw5/SafeQ.h
+ /cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.h
+ /cygdrive/c/Users/Ben/CLionProjects/oshw5/ThreadPool.h
 CMakeFiles/oshw5.dir/Task.cpp.o
  /cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.cpp
  /cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.h
@@ -20,7 +26,9 @@ CMakeFiles/oshw5.dir/ThreadPool.cpp.o
  /cygdrive/c/Users/Ben/CLionProjects/oshw5/ThreadPool.h
 CMakeFiles/oshw5.dir/main.cpp.o
  /cygdrive/c/Users/Ben/CLionProjects/oshw5/Requesters.h
+ /cygdrive/c/Users/Ben/CLionProjects/oshw5/Resolvers.h
  /cygdrive/c/Users/Ben/CLionProjects/oshw5/SafeQ.h
  /cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.h
  /cygdrive/c/Users/Ben/CLionProjects/oshw5/ThreadPool.h
  /cygdrive/c/Users/Ben/CLionProjects/oshw5/main.cpp
+ /cygdrive/c/Users/Ben/CLionProjects/oshw5/util.h

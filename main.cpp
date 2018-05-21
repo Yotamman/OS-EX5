@@ -6,9 +6,14 @@
 #include "sys/types.h"
 #include "sys/ipc.h"
 #include "sys/shm.h"
+#include "Resolvers.h"
 #include <sys/wait.h>
 #include <sys/sem.h>
 #include <sys/ipc.h>
+extern "C"
+{
+#include "util.h"
+}
 
 
 
@@ -32,9 +37,22 @@ int main() {
     SafeQ<string> *requestQ=new SafeQ<string>(qSize);
 
 
-    Requesters reqs(argv,argc,coutMutex,*requestQ);
+//    Requesters reqs(argv,argc,coutMutex,*requestQ);
+//    Resolvers resolvers(argc,coutMutex,*requestQ);
 
-    pthread_t threads;
+    char ipstr[1024];
+    const char* hostname = "www.ynet.co.il";
+
+    if(dnslookup(hostname, ipstr, sizeof(ipstr)) == UTIL_FAILURE)
+    {
+        cout<<"Error"<<endl;
+    }
+    else
+    {
+        cout<<ipstr<<endl;
+    }
+
+
 
 
 

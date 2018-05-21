@@ -177,32 +177,32 @@ Requesters.cpp.s:
 	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Requesters.cpp.s
 .PHONY : Requesters.cpp.s
 
-Resolver.o: Resolver.cpp.o
+Resolvers.o: Resolvers.cpp.o
 
-.PHONY : Resolver.o
+.PHONY : Resolvers.o
 
 # target to build an object file
-Resolver.cpp.o:
-	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Resolver.cpp.o
-.PHONY : Resolver.cpp.o
+Resolvers.cpp.o:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Resolvers.cpp.o
+.PHONY : Resolvers.cpp.o
 
-Resolver.i: Resolver.cpp.i
+Resolvers.i: Resolvers.cpp.i
 
-.PHONY : Resolver.i
+.PHONY : Resolvers.i
 
 # target to preprocess a source file
-Resolver.cpp.i:
-	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Resolver.cpp.i
-.PHONY : Resolver.cpp.i
+Resolvers.cpp.i:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Resolvers.cpp.i
+.PHONY : Resolvers.cpp.i
 
-Resolver.s: Resolver.cpp.s
+Resolvers.s: Resolvers.cpp.s
 
-.PHONY : Resolver.s
+.PHONY : Resolvers.s
 
 # target to generate assembly for a file
-Resolver.cpp.s:
-	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Resolver.cpp.s
-.PHONY : Resolver.cpp.s
+Resolvers.cpp.s:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Resolvers.cpp.s
+.PHONY : Resolvers.cpp.s
 
 Task.o: Task.cpp.o
 
@@ -300,9 +300,9 @@ help:
 	@echo "... Requesters.o"
 	@echo "... Requesters.i"
 	@echo "... Requesters.s"
-	@echo "... Resolver.o"
-	@echo "... Resolver.i"
-	@echo "... Resolver.s"
+	@echo "... Resolvers.o"
+	@echo "... Resolvers.i"
+	@echo "... Resolvers.s"
 	@echo "... Task.o"
 	@echo "... Task.i"
 	@echo "... Task.s"

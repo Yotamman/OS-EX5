@@ -4,7 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/oshw5.dir/ThreadPool.cpp.o"
   "CMakeFiles/oshw5.dir/Requesters.cpp.o"
   "CMakeFiles/oshw5.dir/ReadFile.cpp.o"
-  "CMakeFiles/oshw5.dir/Resolver.cpp.o"
+  "CMakeFiles/oshw5.dir/Resolvers.cpp.o"
   "oshw5.pdb"
   "oshw5.exe"
   "liboshw5.dll.a"

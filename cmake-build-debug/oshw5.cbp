@@ -92,10 +92,10 @@
 		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/Requesters.h">
 			<Option target="oshw5"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/Resolver.cpp">
+		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/Resolvers.cpp">
 			<Option target="oshw5"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/Resolver.h">
+		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/Resolvers.h">
 			<Option target="oshw5"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/SafeQ.h">
@@ -114,6 +114,9 @@
 			<Option target="oshw5"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/main.cpp">
+			<Option target="oshw5"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/util.h">
 			<Option target="oshw5"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/CMakeLists.txt">
