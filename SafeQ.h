@@ -16,7 +16,7 @@ template<class T>
 class SafeQ {
 
 private:
-    T **tasks;
+    string **tasks;
     int len;
     int head;
     int tail;
@@ -26,18 +26,21 @@ private:
 public:
     SafeQ(int length);
     ~SafeQ();
-    bool isFull() { return head == (tail + 1) % len; }
+    bool isFull() { return head == (tail + 1) % this->len; }
     bool isEmpty() { return head == tail; }
     bool enQ(T *task);
+    void print();
     T *deQ();
 };
 
 template<class T>
 SafeQ<T>::SafeQ(int length) {
-    tasks = new T *[length+1];              //implementation of queue include 1 cell empty
+    tasks = new string *[length+1];              //implementation of queue include 1 cell empty
     this->len = length+1;
     head = 0;
     tail = 0;
+    for (int i=0; i<length ; i++)               //init
+        tasks[i]=NULL;
 }
 
 //bool function that return if the push action is successful
@@ -50,7 +53,6 @@ bool SafeQ<T>::enQ(T *task) {
         return false;
     }
     tasks[tail] = task;                      //inset the task into the queue
-    cout<<task;
     tail++;
     pthread_mutex_unlock(&mute);            //unlock
     return true;
@@ -78,6 +80,21 @@ SafeQ<T>::~SafeQ() {
     pthread_mutex_destroy(&mute);
 }
 
+template<class T>
+void SafeQ<T>::print() {
+    pthread_mutex_lock(&mute);          //lock the mutex
+    int i= head;
+    int postion=1;
+    while (i!=tail){
+        cout<<postion<<". "<<*tasks[i]<<"\n";
+        i++;
+        postion++;
+        if(i>len)
+            i=0;
+    }
+    pthread_mutex_unlock(&mute);
+
+}
 
 
 #endif //OSHW5_SAFEQ_H

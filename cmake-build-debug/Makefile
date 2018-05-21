@@ -123,6 +123,87 @@ oshw5/fast:
 	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/build
 .PHONY : oshw5/fast
 
+ReadFile.o: ReadFile.cpp.o
+
+.PHONY : ReadFile.o
+
+# target to build an object file
+ReadFile.cpp.o:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/ReadFile.cpp.o
+.PHONY : ReadFile.cpp.o
+
+ReadFile.i: ReadFile.cpp.i
+
+.PHONY : ReadFile.i
+
+# target to preprocess a source file
+ReadFile.cpp.i:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/ReadFile.cpp.i
+.PHONY : ReadFile.cpp.i
+
+ReadFile.s: ReadFile.cpp.s
+
+.PHONY : ReadFile.s
+
+# target to generate assembly for a file
+ReadFile.cpp.s:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/ReadFile.cpp.s
+.PHONY : ReadFile.cpp.s
+
+Requesters.o: Requesters.cpp.o
+
+.PHONY : Requesters.o
+
+# target to build an object file
+Requesters.cpp.o:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Requesters.cpp.o
+.PHONY : Requesters.cpp.o
+
+Requesters.i: Requesters.cpp.i
+
+.PHONY : Requesters.i
+
+# target to preprocess a source file
+Requesters.cpp.i:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Requesters.cpp.i
+.PHONY : Requesters.cpp.i
+
+Requesters.s: Requesters.cpp.s
+
+.PHONY : Requesters.s
+
+# target to generate assembly for a file
+Requesters.cpp.s:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Requesters.cpp.s
+.PHONY : Requesters.cpp.s
+
+Resolver.o: Resolver.cpp.o
+
+.PHONY : Resolver.o
+
+# target to build an object file
+Resolver.cpp.o:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Resolver.cpp.o
+.PHONY : Resolver.cpp.o
+
+Resolver.i: Resolver.cpp.i
+
+.PHONY : Resolver.i
+
+# target to preprocess a source file
+Resolver.cpp.i:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Resolver.cpp.i
+.PHONY : Resolver.cpp.i
+
+Resolver.s: Resolver.cpp.s
+
+.PHONY : Resolver.s
+
+# target to generate assembly for a file
+Resolver.cpp.s:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Resolver.cpp.s
+.PHONY : Resolver.cpp.s
+
 Task.o: Task.cpp.o
 
 .PHONY : Task.o
@@ -149,6 +230,33 @@ Task.s: Task.cpp.s
 Task.cpp.s:
 	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Task.cpp.s
 .PHONY : Task.cpp.s
+
+ThreadPool.o: ThreadPool.cpp.o
+
+.PHONY : ThreadPool.o
+
+# target to build an object file
+ThreadPool.cpp.o:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/ThreadPool.cpp.o
+.PHONY : ThreadPool.cpp.o
+
+ThreadPool.i: ThreadPool.cpp.i
+
+.PHONY : ThreadPool.i
+
+# target to preprocess a source file
+ThreadPool.cpp.i:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/ThreadPool.cpp.i
+.PHONY : ThreadPool.cpp.i
+
+ThreadPool.s: ThreadPool.cpp.s
+
+.PHONY : ThreadPool.s
+
+# target to generate assembly for a file
+ThreadPool.cpp.s:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/ThreadPool.cpp.s
+.PHONY : ThreadPool.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +294,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... oshw5"
+	@echo "... ReadFile.o"
+	@echo "... ReadFile.i"
+	@echo "... ReadFile.s"
+	@echo "... Requesters.o"
+	@echo "... Requesters.i"
+	@echo "... Requesters.s"
+	@echo "... Resolver.o"
+	@echo "... Resolver.i"
+	@echo "... Resolver.s"
 	@echo "... Task.o"
 	@echo "... Task.i"
 	@echo "... Task.s"
+	@echo "... ThreadPool.o"
+	@echo "... ThreadPool.i"
+	@echo "... ThreadPool.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

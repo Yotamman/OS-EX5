@@ -105,19 +105,123 @@ CMakeFiles/oshw5.dir/Task.cpp.o.provides: CMakeFiles/oshw5.dir/Task.cpp.o.requir
 CMakeFiles/oshw5.dir/Task.cpp.o.provides.build: CMakeFiles/oshw5.dir/Task.cpp.o
 
 
+CMakeFiles/oshw5.dir/ThreadPool.cpp.o: CMakeFiles/oshw5.dir/flags.make
+CMakeFiles/oshw5.dir/ThreadPool.cpp.o: ../ThreadPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ben/CLionProjects/oshw5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oshw5.dir/ThreadPool.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oshw5.dir/ThreadPool.cpp.o -c /cygdrive/c/Users/Ben/CLionProjects/oshw5/ThreadPool.cpp
+
+CMakeFiles/oshw5.dir/ThreadPool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oshw5.dir/ThreadPool.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ben/CLionProjects/oshw5/ThreadPool.cpp > CMakeFiles/oshw5.dir/ThreadPool.cpp.i
+
+CMakeFiles/oshw5.dir/ThreadPool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oshw5.dir/ThreadPool.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ben/CLionProjects/oshw5/ThreadPool.cpp -o CMakeFiles/oshw5.dir/ThreadPool.cpp.s
+
+CMakeFiles/oshw5.dir/ThreadPool.cpp.o.requires:
+
+.PHONY : CMakeFiles/oshw5.dir/ThreadPool.cpp.o.requires
+
+CMakeFiles/oshw5.dir/ThreadPool.cpp.o.provides: CMakeFiles/oshw5.dir/ThreadPool.cpp.o.requires
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/ThreadPool.cpp.o.provides.build
+.PHONY : CMakeFiles/oshw5.dir/ThreadPool.cpp.o.provides
+
+CMakeFiles/oshw5.dir/ThreadPool.cpp.o.provides.build: CMakeFiles/oshw5.dir/ThreadPool.cpp.o
+
+
+CMakeFiles/oshw5.dir/Requesters.cpp.o: CMakeFiles/oshw5.dir/flags.make
+CMakeFiles/oshw5.dir/Requesters.cpp.o: ../Requesters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ben/CLionProjects/oshw5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oshw5.dir/Requesters.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oshw5.dir/Requesters.cpp.o -c /cygdrive/c/Users/Ben/CLionProjects/oshw5/Requesters.cpp
+
+CMakeFiles/oshw5.dir/Requesters.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oshw5.dir/Requesters.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ben/CLionProjects/oshw5/Requesters.cpp > CMakeFiles/oshw5.dir/Requesters.cpp.i
+
+CMakeFiles/oshw5.dir/Requesters.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oshw5.dir/Requesters.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ben/CLionProjects/oshw5/Requesters.cpp -o CMakeFiles/oshw5.dir/Requesters.cpp.s
+
+CMakeFiles/oshw5.dir/Requesters.cpp.o.requires:
+
+.PHONY : CMakeFiles/oshw5.dir/Requesters.cpp.o.requires
+
+CMakeFiles/oshw5.dir/Requesters.cpp.o.provides: CMakeFiles/oshw5.dir/Requesters.cpp.o.requires
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Requesters.cpp.o.provides.build
+.PHONY : CMakeFiles/oshw5.dir/Requesters.cpp.o.provides
+
+CMakeFiles/oshw5.dir/Requesters.cpp.o.provides.build: CMakeFiles/oshw5.dir/Requesters.cpp.o
+
+
+CMakeFiles/oshw5.dir/ReadFile.cpp.o: CMakeFiles/oshw5.dir/flags.make
+CMakeFiles/oshw5.dir/ReadFile.cpp.o: ../ReadFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ben/CLionProjects/oshw5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oshw5.dir/ReadFile.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oshw5.dir/ReadFile.cpp.o -c /cygdrive/c/Users/Ben/CLionProjects/oshw5/ReadFile.cpp
+
+CMakeFiles/oshw5.dir/ReadFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oshw5.dir/ReadFile.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ben/CLionProjects/oshw5/ReadFile.cpp > CMakeFiles/oshw5.dir/ReadFile.cpp.i
+
+CMakeFiles/oshw5.dir/ReadFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oshw5.dir/ReadFile.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ben/CLionProjects/oshw5/ReadFile.cpp -o CMakeFiles/oshw5.dir/ReadFile.cpp.s
+
+CMakeFiles/oshw5.dir/ReadFile.cpp.o.requires:
+
+.PHONY : CMakeFiles/oshw5.dir/ReadFile.cpp.o.requires
+
+CMakeFiles/oshw5.dir/ReadFile.cpp.o.provides: CMakeFiles/oshw5.dir/ReadFile.cpp.o.requires
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/ReadFile.cpp.o.provides.build
+.PHONY : CMakeFiles/oshw5.dir/ReadFile.cpp.o.provides
+
+CMakeFiles/oshw5.dir/ReadFile.cpp.o.provides.build: CMakeFiles/oshw5.dir/ReadFile.cpp.o
+
+
+CMakeFiles/oshw5.dir/Resolver.cpp.o: CMakeFiles/oshw5.dir/flags.make
+CMakeFiles/oshw5.dir/Resolver.cpp.o: ../Resolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ben/CLionProjects/oshw5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/oshw5.dir/Resolver.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oshw5.dir/Resolver.cpp.o -c /cygdrive/c/Users/Ben/CLionProjects/oshw5/Resolver.cpp
+
+CMakeFiles/oshw5.dir/Resolver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oshw5.dir/Resolver.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ben/CLionProjects/oshw5/Resolver.cpp > CMakeFiles/oshw5.dir/Resolver.cpp.i
+
+CMakeFiles/oshw5.dir/Resolver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oshw5.dir/Resolver.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ben/CLionProjects/oshw5/Resolver.cpp -o CMakeFiles/oshw5.dir/Resolver.cpp.s
+
+CMakeFiles/oshw5.dir/Resolver.cpp.o.requires:
+
+.PHONY : CMakeFiles/oshw5.dir/Resolver.cpp.o.requires
+
+CMakeFiles/oshw5.dir/Resolver.cpp.o.provides: CMakeFiles/oshw5.dir/Resolver.cpp.o.requires
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Resolver.cpp.o.provides.build
+.PHONY : CMakeFiles/oshw5.dir/Resolver.cpp.o.provides
+
+CMakeFiles/oshw5.dir/Resolver.cpp.o.provides.build: CMakeFiles/oshw5.dir/Resolver.cpp.o
+
+
 # Object files for target oshw5
 oshw5_OBJECTS = \
 "CMakeFiles/oshw5.dir/main.cpp.o" \
-"CMakeFiles/oshw5.dir/Task.cpp.o"
+"CMakeFiles/oshw5.dir/Task.cpp.o" \
+"CMakeFiles/oshw5.dir/ThreadPool.cpp.o" \
+"CMakeFiles/oshw5.dir/Requesters.cpp.o" \
+"CMakeFiles/oshw5.dir/ReadFile.cpp.o" \
+"CMakeFiles/oshw5.dir/Resolver.cpp.o"
 
 # External object files for target oshw5
 oshw5_EXTERNAL_OBJECTS =
 
 oshw5.exe: CMakeFiles/oshw5.dir/main.cpp.o
 oshw5.exe: CMakeFiles/oshw5.dir/Task.cpp.o
+oshw5.exe: CMakeFiles/oshw5.dir/ThreadPool.cpp.o
+oshw5.exe: CMakeFiles/oshw5.dir/Requesters.cpp.o
+oshw5.exe: CMakeFiles/oshw5.dir/ReadFile.cpp.o
+oshw5.exe: CMakeFiles/oshw5.dir/Resolver.cpp.o
 oshw5.exe: CMakeFiles/oshw5.dir/build.make
 oshw5.exe: CMakeFiles/oshw5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Ben/CLionProjects/oshw5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable oshw5.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Ben/CLionProjects/oshw5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable oshw5.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/oshw5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +231,10 @@ CMakeFiles/oshw5.dir/build: oshw5.exe
 
 CMakeFiles/oshw5.dir/requires: CMakeFiles/oshw5.dir/main.cpp.o.requires
 CMakeFiles/oshw5.dir/requires: CMakeFiles/oshw5.dir/Task.cpp.o.requires
+CMakeFiles/oshw5.dir/requires: CMakeFiles/oshw5.dir/ThreadPool.cpp.o.requires
+CMakeFiles/oshw5.dir/requires: CMakeFiles/oshw5.dir/Requesters.cpp.o.requires
+CMakeFiles/oshw5.dir/requires: CMakeFiles/oshw5.dir/ReadFile.cpp.o.requires
+CMakeFiles/oshw5.dir/requires: CMakeFiles/oshw5.dir/Resolver.cpp.o.requires
 
 .PHONY : CMakeFiles/oshw5.dir/requires
 

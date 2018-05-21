@@ -80,6 +80,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/ReadFile.cpp">
+			<Option target="oshw5"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/ReadFile.h">
+			<Option target="oshw5"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/Requesters.cpp">
+			<Option target="oshw5"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/Requesters.h">
+			<Option target="oshw5"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/Resolver.cpp">
+			<Option target="oshw5"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/Resolver.h">
+			<Option target="oshw5"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/SafeQ.h">
 			<Option target="oshw5"/>
 		</Unit>
@@ -87,6 +105,12 @@
 			<Option target="oshw5"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.h">
+			<Option target="oshw5"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/ThreadPool.cpp">
+			<Option target="oshw5"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/ThreadPool.h">
 			<Option target="oshw5"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Ben/CLionProjects/oshw5/main.cpp">

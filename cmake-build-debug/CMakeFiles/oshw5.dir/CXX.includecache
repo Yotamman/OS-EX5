@@ -6,6 +6,30 @@
 
 #IncludeRegexTransform: 
 
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/ReadFile.cpp
+ReadFile.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/ReadFile.h
+
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/ReadFile.h
+Task.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.h
+
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/Requesters.cpp
+unistd.h
+-
+thread
+-
+chrono
+-
+Requesters.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/Requesters.h
+
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/Requesters.h
+ThreadPool.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/ThreadPool.h
+SafeQ.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/SafeQ.h
+
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/SafeQ.h
 sys/param.h
 -
@@ -18,9 +42,43 @@ Task.h
 
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.h
 
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/ThreadPool.cpp
+ThreadPool.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/ThreadPool.h
+
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/ThreadPool.h
+Task.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.h
+iostream
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/iostream
+pthread.h
+-
+string
+-
+fstream
+-
+
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/main.cpp
 iostream
 -
 SafeQ.h
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/SafeQ.h
+Task.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.h
+Requesters.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/Requesters.h
+sstream
+-
+sys/types.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/sys/types.h
+sys/ipc.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/sys/ipc.h
+sys/shm.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/sys/shm.h
+sys/wait.h
+-
+sys/sem.h
+-
+sys/ipc.h
+-
 
