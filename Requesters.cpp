@@ -14,6 +14,7 @@ typedef struct ThreadData {
     pthread_mutex_t *coutMutex;
     SafeQ<Task> *requestQ;
     pthread_cond_t *cond;
+    pthread_mutex_t *condMutex;
 } ThreadInfo;
 
 condition_variable cvArr;
@@ -22,7 +23,7 @@ Requesters::Requesters(char *files[1], int tCount, pthread_mutex_t &coutMutex, S
         int rc;
         void *res;
         this->condPerThread= new pthread_cond_t[tCount];
-
+        this->condMutex=new pthread_mutex_t[tCount];
 
         for(int i=0; i<tCount ; i++){
             ThreadData *tData = new ThreadData();
@@ -30,8 +31,13 @@ Requesters::Requesters(char *files[1], int tCount, pthread_mutex_t &coutMutex, S
             tData->tid=i;
             tData->coutMutex=this->coutMutex;
             tData->requestQ=&requestQue;
+
             pthread_cond_init(&this->condPerThread[i],NULL);
             tData->cond=&this->condPerThread[i];
+
+            pthread_mutex_init(&this->condMutex[i],NULL);
+            tData->condMutex=&this->condMutex[i];
+
             rc=pthread_create(threads[i], NULL, getDomainName, (void*)tData);
     }
 //    //waiting for all threads to finish
@@ -55,7 +61,7 @@ void * getDomainName(void * tData){
         string *url= new string(line);
 
 
-        while(!fn->requestQ->enQ(new Task(NULL,url,fn->cond))){     //push new Task into the queue
+        while(!fn->requestQ->enQ(new Task(NULL,url,fn->cond,fn->condMutex))){     //push new Task into the queue
             waitTime = rand()%100;         //if the url didn't get into the queue: wait rand time and try again;
             this_thread::sleep_for(chrono::microseconds(waitTime));
         }
@@ -64,7 +70,7 @@ void * getDomainName(void * tData){
         cout<<"Requester "<<fn->tid<<" push: "<<*url<<"\n";
         pthread_mutex_unlock(fn->coutMutex);
 
-        pthread_cond_wait(fn->cond,NULL);       //the thread wait until the task is been push into the result array
+        pthread_cond_wait(fn->cond,fn->condMutex);       //the thread wait until the task is been push into the result array
 
     }
     //finish section

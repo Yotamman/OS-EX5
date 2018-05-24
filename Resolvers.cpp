@@ -43,16 +43,15 @@ void * resDomainName(void * tData) {
     ThreadData *fn= (ThreadData*)tData;          //convert the tData to struct
     char *cUrl;
     string *url=new string ("NotNull");
-
+    Task *task;
     while(true){
-        Task *task=fn->requestQ->deQ();
-        url= task->getUrl();
-        while(url==NULL){           //url is null when the queue is empty
+        task=fn->requestQ->deQ();
+        while(task==NULL){           //url is null when the queue is empty
             this_thread::sleep_for(chrono::microseconds(10000));
-            url= task->getUrl();
-            cout<<"\n waiting for tasks...";
+            task=fn->requestQ->deQ();
+            //cout<<"\n waiting for tasks...";
         }
-
+        url= task->getUrl();
 
         cUrl = new char[url->length() + 1];
         strcpy(cUrl, url->c_str());

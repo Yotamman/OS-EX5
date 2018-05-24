@@ -16,6 +16,7 @@ private:
     string *ip;
     string *url;
     pthread_cond_t * cond;
+    pthread_mutex_t *condMutex;
 public:
     string *getIp() const;
 
@@ -30,7 +31,7 @@ public:
     void setCond(pthread_cond_t *cond);
 
 public:
-    Task(string *ip, string *url, pthread_cond_t *cond);
+    Task(string *ip, string *url, pthread_cond_t *cond, pthread_mutex_t *condMutex);
 
 };
 

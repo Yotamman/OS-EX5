@@ -4,11 +4,6 @@
 
 #include "Task.h"
 
-Task::Task(string *ip, string *url, pthread_cond_t *cond) : ip(ip), url(url), cond(cond) {
-    this->cond=cond;
-    this->url=url;
-    this->ip=ip;
-}
 
 string *Task::getIp() const {
     return ip;
@@ -33,3 +28,12 @@ pthread_cond_t *Task::getCond() const {
 void Task::setCond(pthread_cond_t *cond) {
     Task::cond = cond;
 }
+
+Task::Task(string *ip, string *url, pthread_cond_t *cond, pthread_mutex_t *condMutex) {
+    this->cond=cond;
+    this->url=url;
+    this->ip=ip;
+    this->condMutex=condMutex;
+}
+
+

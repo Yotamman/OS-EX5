@@ -14,7 +14,7 @@ private:
     string files;
     SafeQ<Task> *requestQ;
     pthread_cond_t *condPerThread;
-    
+    pthread_mutex_t *condMutex;
 
 
 public:
