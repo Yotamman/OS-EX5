@@ -7,6 +7,7 @@
 
 #include "Task.h"
 #include "iostream"
+#include "ResultArr.h"
 #include <pthread.h>
 #include <string>
 #include <fstream>
@@ -14,7 +15,7 @@ using namespace std;
 
 class ThreadPool {
 protected:
-
+    ResultArr *resultArr;
     pthread_t **threads;
     pthread_mutex_t mutex;
     pthread_mutex_t *coutMutex;
@@ -22,7 +23,7 @@ protected:
     int threadNum;
 
 public:
-    ThreadPool(int threadNum,pthread_mutex_t &coutMutex);
+    ThreadPool(int threadNum,pthread_mutex_t &coutMutex, ResultArr *resultArr);
 
 
 };

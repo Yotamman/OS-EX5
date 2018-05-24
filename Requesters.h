@@ -12,17 +12,19 @@ class Requesters : public ThreadPool {
 
 private:
     string files;
-    SafeQ<string> *requestQ;
+    SafeQ<Task> *requestQ;
+    pthread_cond_t *condPerThread;
+    
 
 
 public:
-    Requesters(char *files[1], int count, pthread_mutex_t &coutMutex, SafeQ<string> &requestQue);
+    Requesters(char *files[1], int tCount, pthread_mutex_t &coutMutex, SafeQ<Task> &requestQue, ResultArr &resultArr);
 
     //this method open the file and exports the domain name as Tasks into the tasks SafeQueue
    // void *getDomainName(void * fileName);
 
-    void *PrintHello(void *threadid);
 };
 
 void *getDomainName(void * ti);
+
 #endif //OSHW5_REQUESTERS_H

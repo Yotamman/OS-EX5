@@ -6,6 +6,32 @@
 
 #IncludeRegexTransform: 
 
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/Node.cpp
+Node.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/Node.h
+
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/Node.h
+sys/wait.h
+-
+sys/sem.h
+-
+sys/ipc.h
+-
+cstring
+-
+unistd.h
+-
+iostream
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/iostream
+Task.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.h
+pthread.h
+-
+string
+-
+fstream
+-
+
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/ReadFile.cpp
 ReadFile.h
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/ReadFile.h
@@ -21,6 +47,8 @@ thread
 -
 chrono
 -
+condition_variable
+-
 Requesters.h
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/Requesters.h
 
@@ -31,14 +59,54 @@ SafeQ.h
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/SafeQ.h
 
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/Resolvers.cpp
+unistd.h
+-
 Resolvers.h
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/Resolvers.h
+util.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/util.h
 
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/Resolvers.h
 ThreadPool.h
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/ThreadPool.h
 SafeQ.h
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/SafeQ.h
+ResultArr.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/ResultArr.h
+cstring
+-
+thread
+-
+chrono
+-
+
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/ResultArr.cpp
+pthread.h
+-
+ResultArr.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/ResultArr.h
+
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/ResultArr.h
+Node.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/Node.h
+sys/wait.h
+-
+sys/sem.h
+-
+sys/ipc.h
+-
+cstring
+-
+unistd.h
+-
+iostream
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/iostream
+pthread.h
+-
+string
+-
+fstream
+-
 
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/SafeQ.h
 sys/param.h
@@ -51,6 +119,10 @@ Task.h
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.h
 
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.h
+sys/param.h
+-
+string
+-
 
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/ThreadPool.cpp
 ThreadPool.h
@@ -61,6 +133,8 @@ Task.h
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/Task.h
 iostream
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/iostream
+ResultArr.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/ResultArr.h
 pthread.h
 -
 string
@@ -87,12 +161,18 @@ sys/shm.h
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/sys/shm.h
 Resolvers.h
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/Resolvers.h
+ResultArr.h
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/ResultArr.h
 sys/wait.h
 -
 sys/sem.h
 -
 sys/ipc.h
 -
+condition_variable
+-
+
+/cygdrive/c/Users/Ben/CLionProjects/oshw5/util.cpp
 util.h
 /cygdrive/c/Users/Ben/CLionProjects/oshw5/util.h
 

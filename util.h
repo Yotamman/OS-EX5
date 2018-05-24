@@ -1,8 +1,14 @@
+/*
+ * Description:
+ * 	This file contains declarations of utility functions
+ *  
+ */
+
 #ifndef UTIL_H
 #define UTIL_H
 
 /* Define the following to enable debug statments */
-//#define UTIL_DEBUG 0
+// #define UTIL_DEBUG
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -17,19 +23,20 @@
 #define UTIL_FAILURE -1
 #define UTIL_SUCCESS 0
 
+
 /* Fuction to return the first IP address found
  * for hostname. IP address returned as string
  * firstIPstr of size maxsize
  */
 int dnslookup(const char* hostname,
-              char* firstIPstr,
-              int maxSize);
+	      char* firstIPstr,
+	      int maxSize);
 
 /* Looks up all the IP addresses and returns them in an array of Char*
  */
 int dnslookupAll(const char* hostname,
-                 char** ipArray,
-                 int maxAddresses,
-                 int* addressCount);
+	      char** ipArray,
+	      int maxAddresses, 
+	      int* addressCount);
 
 #endif

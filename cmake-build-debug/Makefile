@@ -123,6 +123,33 @@ oshw5/fast:
 	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/build
 .PHONY : oshw5/fast
 
+Node.o: Node.cpp.o
+
+.PHONY : Node.o
+
+# target to build an object file
+Node.cpp.o:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Node.cpp.o
+.PHONY : Node.cpp.o
+
+Node.i: Node.cpp.i
+
+.PHONY : Node.i
+
+# target to preprocess a source file
+Node.cpp.i:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Node.cpp.i
+.PHONY : Node.cpp.i
+
+Node.s: Node.cpp.s
+
+.PHONY : Node.s
+
+# target to generate assembly for a file
+Node.cpp.s:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Node.cpp.s
+.PHONY : Node.cpp.s
+
 ReadFile.o: ReadFile.cpp.o
 
 .PHONY : ReadFile.o
@@ -203,6 +230,33 @@ Resolvers.s: Resolvers.cpp.s
 Resolvers.cpp.s:
 	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/Resolvers.cpp.s
 .PHONY : Resolvers.cpp.s
+
+ResultArr.o: ResultArr.cpp.o
+
+.PHONY : ResultArr.o
+
+# target to build an object file
+ResultArr.cpp.o:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/ResultArr.cpp.o
+.PHONY : ResultArr.cpp.o
+
+ResultArr.i: ResultArr.cpp.i
+
+.PHONY : ResultArr.i
+
+# target to preprocess a source file
+ResultArr.cpp.i:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/ResultArr.cpp.i
+.PHONY : ResultArr.cpp.i
+
+ResultArr.s: ResultArr.cpp.s
+
+.PHONY : ResultArr.s
+
+# target to generate assembly for a file
+ResultArr.cpp.s:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/ResultArr.cpp.s
+.PHONY : ResultArr.cpp.s
 
 Task.o: Task.cpp.o
 
@@ -285,6 +339,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+util.o: util.cpp.o
+
+.PHONY : util.o
+
+# target to build an object file
+util.cpp.o:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/util.cpp.o
+.PHONY : util.cpp.o
+
+util.i: util.cpp.i
+
+.PHONY : util.i
+
+# target to preprocess a source file
+util.cpp.i:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/util.cpp.i
+.PHONY : util.cpp.i
+
+util.s: util.cpp.s
+
+.PHONY : util.s
+
+# target to generate assembly for a file
+util.cpp.s:
+	$(MAKE) -f CMakeFiles/oshw5.dir/build.make CMakeFiles/oshw5.dir/util.cpp.s
+.PHONY : util.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -294,6 +375,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... oshw5"
+	@echo "... Node.o"
+	@echo "... Node.i"
+	@echo "... Node.s"
 	@echo "... ReadFile.o"
 	@echo "... ReadFile.i"
 	@echo "... ReadFile.s"
@@ -303,6 +387,9 @@ help:
 	@echo "... Resolvers.o"
 	@echo "... Resolvers.i"
 	@echo "... Resolvers.s"
+	@echo "... ResultArr.o"
+	@echo "... ResultArr.i"
+	@echo "... ResultArr.s"
 	@echo "... Task.o"
 	@echo "... Task.i"
 	@echo "... Task.s"
@@ -312,6 +399,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... util.o"
+	@echo "... util.i"
+	@echo "... util.s"
 .PHONY : help
 
 
